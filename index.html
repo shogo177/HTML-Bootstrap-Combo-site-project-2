@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bootstrap Prog</title>
+</head>
+
+<body>
+    <!-- Navigation bar ////////////////////////////////////////////// -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Site Banner ////////////////////////////////////////////// -->
+      <div class="container-fluid p-0 m-0">
+        <img src="https://img.freepik.com/free-photo/sassy-goodlooking-redhead-female-yellow-sweater-listen-music-white-headphones-touch-earphones_1258-126219.jpg?t=st=1745913429~exp=1745917029~hmac=19af992bef8c76a4898dc7574e2611c05a1bea1373defa282d1bc95e428c3ec3&w=1380" 
+             class="img-fluid w-100" 
+             alt="Responsive girl banner image">
+      </div>
+  <!-- Circular image below -->
+  <div class="text-center mt-4">
+    <img src="https://img.freepik.com/premium-vector/man-is-giving-speech-simple-flat-design-style_995281-5335.jpg?w=740" 
+         class="rounded-circle" 
+         alt="person standing podium" 
+         width="150" 
+         height="150">
+  </div>
+
+  <!-- Two Buttons with Utility Classes ////////////////////////////////////////////// -->
+<div class="text-center mt-4">
+    <!-- Always visible button -->
+    <button class="btn btn-primary">Learn More</button>
+  
+    <!-- Hidden on small screens, visible on mid-range and up -->
+    <button class="btn btn-secondary d-none d-md-inline-block">Sign Up</button>
+  </div>
+
+<!-- TITTLE PART ////////////////////////////////////////////// -->
+    <div class="d-flex flex-column align-items-center mt-5"> 
+        <h1 class="mb-4">Registration form</h1>
+        
+      <!-- COMPLETE FORUM SETTINGS ////////////////////////////////////////////// -->
+        <form class="p-5 border rounded shadow-sm bg-light needs-validation" style="width: 100%; max-width: 600px;" novalidate>
+          
+          <div class="mb-3">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name" required>
+                <div class="invalid-feedback">
+                  Please enter your first name.
+                </div>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name" required>
+                <div class="invalid-feedback">
+                  Please enter your last name.
+                </div>
+              </div>
+            </div>
+          </div>
+      <!-- EMAIL ////////////////////////////////////////////// -->
+          <div class="mb-3">
+            <label for="InputEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control is-invalid" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <div class="invalid-feedback">
+              Please provide a valid email.
+            </div>
+          </div>
+      
+          <div class="mb-3">
+            <label for="InputPassword" class="form-label">Password</label>
+            <input type="password" class="form-control is-invalid"id="InputPassword" placeholder="Password" required>
+            <div class="invalid-feedback">
+              Please provide a password.
+            </div>
+          </div>
+      
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+      
+          <button class="btn btn-success mt-3 w-100" type="submit">Submit form</button>
+        </form>
+        <br>
+<!-- TABLE SETTING ////////////////////////////////////////////// -->
+        <div class="table-responsive p-4 border rounded shadow-sm bg-light d-flex flex-column align-items-center" style="width: 100%; max-width: 900px;">
+            <table class="table table-hover mb-0">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Lee</td>
+                  <td>Swag</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@Mild</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry the Bird</td>
+                  <td>Cliper</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <br>
+
+
+
+
+
+
+
+      </div>
+
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /////////////////////////////////Java Include////////////////////////////////////////// -->
+<script>
+    // Enable Bootstrap validation on submit
+    (() => {
+      'use strict';
+      const forms = document.querySelectorAll('.needs-validation');
+  
+      Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        });
+  
+        // Real-time feedback: remove "is-invalid" when corrected
+        form.querySelectorAll('input, textarea, select').forEach(field => {
+          field.addEventListener('input', () => {
+            if (field.checkValidity()) {
+              field.classList.remove('is-invalid');
+              field.classList.add('is-valid');
+            } else {
+              field.classList.remove('is-valid');
+              field.classList.add('is-invalid');
+            }
+          });
+        });
+      });
+    })();
+  </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
